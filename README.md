@@ -90,8 +90,8 @@ Where `{i}` ranges from 0 to 4 (one model per agent).
 The script will:
 - Create directories for logs and model weights if they don't exist
 - Train the coordinator to select between the 4 skills
-- Save model checkpoints to `coordinator_May_23/`
-- Save training logs to `logs_May_23/coordinator/`
+- Save model checkpoints to `coordinator/`
+- Save training logs to `logs/`
 
 ## System Requirements
 
@@ -107,5 +107,5 @@ The script will:
 - `models/`: Neural network model definitions
 - `wrapper/`: Environment wrappers for interfacing with CybORG
 - `skills/`: Directory where trained skill models are saved
-- `coordinator_May_23/`: Directory where trained coordinator models are saved
+- `coordinator/`: Directory where trained coordinator models are saved
 - `logs/`: Training logs and metrics 
