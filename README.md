@@ -113,4 +113,4 @@ The script will:
 - `wrapper/`: Environment wrappers for interfacing with CybORG
 - `skills/`: Directory where trained skill models are saved
 - `coordinator/`: Directory where trained coordinator models are saved
-- `logs/`: Training logs and metrics 
+- `logs/`: Training logs and metrics # MILCOM-25-LLM-HMARL
