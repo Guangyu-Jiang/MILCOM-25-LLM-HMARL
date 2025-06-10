@@ -40,7 +40,12 @@ python train_skills.py skill_3 skill3_traffic_control
 
 # Train the deception skill
 python train_skills.py skill_4 skill4_deception
+
+# Train the independent PPO baseline (no specialized skill)
+python train_skills.py None ppo_baseline
 ```
+
+> **Note**: Setting the skill name to `None` will train agents without any specialized skill focus, providing an independent PPO baseline for comparison with the hierarchical approach.
 
 ### Output
 
